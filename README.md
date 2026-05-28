@@ -2,8 +2,7 @@
 ### SNAP and Food Security Risk Monitor for Program Officers
 
 **Built by Sherriff Abdul-Hamid**  
-Product leader specializing in government digital services, SNAP and safety net
-benefits delivery, and proactive targeting tools for underserved communities.
+Sherriff Abdul-Hamid is a development economist and public-sector AI researcher applying cost-effectiveness analysis and causal inference to social protection and benefits delivery systems.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://povertyearlywarningsystem-7rrmkktbi7bwha2nna8gk7.streamlit.app/)
 
@@ -86,11 +85,15 @@ Upload a CSV with these columns for live analysis:
 ## Repository Structure
 
 ```
-├── app.py                  # Main Streamlit UI — briefs, insights, charts, table
-├── scoring.py              # Vulnerability scoring engine and band classification
-├── data.py                 # Built-in illustrative regional dataset
-├── requirements.txt        # Runtime dependencies
-└── README.md               # This file
+├── app.py              # Main Streamlit UI
+├── model.py            # Vulnerability scoring engine
+├── data.py             # Built-in illustrative regional dataset
+├── insights.py         # Policy insights and KPI logic
+├── policy.py           # Policy brief generation
+├── viz.py              # Visualisation components
+├── report_generator.py # Report export engine
+├── requirements.txt    # Runtime dependencies
+└── README.md           # This file
 ```
 
 ---
@@ -99,7 +102,7 @@ Upload a CSV with these columns for live analysis:
 
 ```bash
 # Clone the repository
-git clone https://github.com/S-ABDUL-AI/[REPO-NAME].git
+git clone https://github.com/S-ABDUL-AI/SAFETY-NET-RISK-MONITOR.git
 cd [REPO-NAME]
 
 # Install dependencies
@@ -153,14 +156,12 @@ tied directly to the underlying indicator values.
 
 ## About the Author
 
-**Sherriff Abdul-Hamid** is a product leader and data scientist specializing in
-government digital services, SNAP and safety net benefits delivery, and
-decision-support tools for historically underserved communities.
+**Sherriff Abdul-Hamid** is a development economist and public-sector AI researcher applying cost-effectiveness analysis and causal inference to social protection and benefits delivery systems.
 
 - Former Founder & CEO, Poverty 360 — 25,000+ beneficiaries served across West Africa
 - Partnered with Ghana's National Health Insurance Authority (NHIA) to enroll
   1,250 vulnerable women and abuse survivors into national health coverage
-- Directed $200M+ in resource allocation for USAID, UNDP, and UKAID-funded programs
+- Secured and managed multi-year institutional funding from USAID, UKAID, UNDP, and USADF across health, nutrition, and social protection programmes
 - **Obama Foundation Leaders Award** — Top 1.3% globally, 2023
 - **Mandela Washington Fellow** — Top 0.3%, U.S. Department of State, 2018
 - Harvard Business School · Senior Executive Program in General Management
