@@ -277,7 +277,7 @@ st.markdown(f"""
     A proactive targeting tool for SNAP outreach coordinators, state food security program officers,
     and federal poverty reduction administrators. Combines food price pressure, employment rates,
     income levels, and housing costs into a composite vulnerability score — with structured policy
-    briefs, immediate recommended actions, and a downloadable McKinsey-style report.
+    briefs, immediate recommended actions, and a downloadable report.
     </div>
     <div class="hero-meta">
     {len(df)} regions · 4 indicators · {MODEL_MATCH_RATE}% model match rate ·
@@ -595,12 +595,10 @@ with report_col2:
 # ── FOOTER ─────────────────────────────────────────────────────
 st.markdown(f"""
 <div class="byline">
-<strong>Built by Sherriff Abdul-Hamid</strong> — Product leader specializing in government
-digital services, SNAP and safety net benefits delivery, and proactive targeting tools
-for underserved communities. Former Founder &amp; CEO, Poverty 360 (25,000+ beneficiaries served).
-Obama Foundation Leaders Award · Mandela Washington Fellow · Harvard Business School.<br><br>
-<em>Built-in data is illustrative. For live SNAP or food security targeting, upload your
-own CSV data or integrate with USDA FNS administrative records.</em><br><br>
+<strong>Built by Sherriff Abdul-Hamid</strong> — Development economist and public-sector AI researcher applying causal inference and cost-effectiveness analysis to social protection and public health systems. Founder and Executive Director, Poverty 
+360 — 58,000+ beneficiaries across five countries. Secured and managed multi-year institutional funding from USAID, UKAID, UNDP, and USADF across health, nutrition, and social protection 
+programmes. Obama Foundation Leaders Award · Mandela Washington Fellow · Harvard Business School.<br><br>
+<em>Built-in data is illustrative. For live SNAP or food security targeting, upload your own CSV data or integrate with USDA FNS administrative records.</em><br><br>
 Other tools:
 <a href="https://chpghrwawmvddoquvmniwm.streamlit.app/">Medicaid Access Risk Monitor</a> ·
 <a href="https://smart-resource-allocation-dashboard-eudzw5r2f9pbu4qyw3psez.streamlit.app/">Public Budget Allocation Tool</a> ·
